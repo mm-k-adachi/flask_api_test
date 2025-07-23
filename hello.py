@@ -37,6 +37,7 @@ def show_use_profile(username):
 # def login_get():
 #     return show_the_login_form()  
 
-
-# if __name__ == "__main__":
-#     app.run(debug=True)
+# これを書いていればpythonコマンドで実行可能。
+# 書いてなければflaskコマンドで実行
+if __name__ == "__main__":
+    app.run(debug=True)
